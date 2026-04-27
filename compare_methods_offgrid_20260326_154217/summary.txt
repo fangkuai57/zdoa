@@ -1,0 +1,19 @@
+Benchmark timestamp: 20260326_154217
+
+[NARROWBAND]
+Selected scenario: NB-K3 close offgrid
+W design: CenterDense
+True DOA (deg): [-6.35 -2.05 1.75]
+Source powers: [1 0.9 0.7]
+M = 20, P = 20, L = 40
+Best overall method by average MSE: Our ZDOA-offgrid
+
+Per-method average MSE over SNR sweep:
+  Our ZDOA-offgrid     0.495309 deg^2 | -8.060 dB
+  MUSIC                30.189943 deg^2 | 9.742 dB
+  MVDR                 39.755717 deg^2 | 12.454 dB
+  Beamspace MUSIC      27.872824 deg^2 | 8.114 dB
+  Beamspace MVDR       39.040433 deg^2 | 12.254 dB
+  Power Bartlett       28.074797 deg^2 | 13.767 dB
+  Power NNLS           8.336333 deg^2 | 7.982 dB
+  Power SBL            6.844762 deg^2 | 5.068 dB

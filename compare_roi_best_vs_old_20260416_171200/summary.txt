@@ -1,0 +1,11 @@
+Focused ROI-best vs old-best comparison
+Timestamp: 20260416_171200
+
+[NARROWBAND] NB-K3 close offgrid
+  old-center_dense | avg MSE = 0.7281 deg^2
+  roi-center_dense-m4.25 | avg MSE = 0.6646 deg^2
+
+[WIDEBAND] WB-K2 strong-weak offgrid
+  old-uniform | avg MSE = 0.0657 deg^2
+  roi-uniform-m4.00 | avg MSE = 0.0783 deg^2
+

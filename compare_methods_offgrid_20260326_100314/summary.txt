@@ -1,0 +1,20 @@
+Benchmark timestamp: 20260326_100314
+
+[WIDEBAND]
+Selected scenario: WB-K2 strong-weak offgrid
+W design: Uniform
+True DOA (deg): [-4.7 -0.7]
+Source powers: [1 0.33]
+M = 20, P = 20, L = 40
+Freq ratios: [0.85 0.925 1 1.075 1.15]
+Best overall method by average MSE: Our ZDOA-offgrid
+
+Per-method average MSE over SNR sweep:
+  Our ZDOA-offgrid     0.155673 deg^2 | -17.346 dB
+  MUSIC                22.158460 deg^2 | -0.827 dB
+  MVDR                 36.760749 deg^2 | 2.118 dB
+  Beamspace MUSIC      26.198959 deg^2 | -2.396 dB
+  Beamspace MVDR       38.035147 deg^2 | 1.997 dB
+  Power Bartlett       25.584051 deg^2 | 11.535 dB
+  Power NNLS           1.999254 deg^2 | -6.996 dB
+  Power SBL            8.380258 deg^2 | -3.887 dB
